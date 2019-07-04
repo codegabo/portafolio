@@ -1,0 +1,34 @@
+*,*::before,*::after, html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  //outline:1px solid red;
+}
+*:not(i){
+  font-family: 'Raleway', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+$creset:#1775d1;
+$cdark:#004ba0;
+$clight:#63a3ff;
+$ccontrast: #967050;
+$ccall: #ffb318;
+$ccalltext: #1f1e1e;
+
+$ftitle:23px;
+$fsubtitle:21px;
+$ftext:16px;
+
+@import "_layout";
+@import "_header";
+@import "_me";
+@import "_about";
+@import "_projects";
+@import "_skills";
+@import "_awards";
+@import "_education";
+@import "_plans";
+@import "_contact";
+@import "_image_slide";

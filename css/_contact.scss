@@ -1,0 +1,43 @@
+.contact .card{
+  margin-bottom:15rem;
+  & .card__header .card__text{
+    color: $ccall;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+.contact .card__body .skills__item-container{
+  display: inline;
+  flex-wrap: nowrap;
+  text-align: center;
+  margin: auto;
+  & i{
+    color: lightgray;
+    font-size: 4em;
+  }
+}
+.contact__links{
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+  display: inline-block;
+}
+.contact .card__body .skills__item-container{
+  & .contact-fa-github:hover {
+    color: #000;
+  }
+  & .contact-fa-mail:hover {
+    color: $creset;
+  }
+  & .contact-fa-whatsapp:hover {
+    color: #00e676;
+  }
+  & .contact-fa-linkedin:hover {
+    color: #0077b5;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .contact .card{
+    margin-bottom:8em;
+  }
+}

@@ -1,0 +1,109 @@
+.plans{
+  & .card__header{
+    text-align: center;
+    display: inline-block;
+    height: 4em;
+    margin:auto;
+    padding: 0;
+  }
+  & .card__title{
+    display: inline-block;
+    font-size: $fsubtitle - 3;
+    color: $cdark;
+    border:none;
+    padding: .5em 0;
+    margin: 0 auto;
+  }
+  & .card_text {
+    margin: auto auto 1.5em;
+    line-height: 22px;
+  }
+  & .call_to_action{
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+    font-size: $ftitle;
+    margin: .5em auto;
+    &:hover i {
+      color: #fff;
+    }
+    & span{
+      color: $ccalltext;
+      font-size: 16px;
+    }
+  }
+  & .card:hover{
+    border:1px solid $ccalltext;
+  }
+  .dates{
+    margin: -2em auto auto;
+  }
+}
+.card_container{
+  width: 100%;
+  margin: auto;
+ }
+.extras-card_container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 80%);
+  grid-gap: 1.5em;
+  justify-content: center;
+  width: 100%;
+  margin: auto auto 1.5em;
+}
+
+.grid__card{
+  border:1px solid lightgray;
+  border-radius: .5em;
+  padding: 1em;
+  &:hover{
+    border:1px solid $ccalltext;
+  }
+}
+.grid__card-1{
+  grid-row-end: span 3;
+}
+.grid__card-2{
+  grid-row-end: span 2;
+}
+.grid__card-2{
+  grid-row-end: span 1;
+}
+
+@media screen and (min-width: 640px) {
+  .extras-card_container {
+    grid-template-columns: repeat(auto-fill, 47%);
+  }
+  .plans {
+    & .card_text {
+      font-size: 14px;
+    }
+    & .card__title {
+      font-size: $fsubtitle - 5;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .extras-card_container {
+    grid-template-columns: repeat(auto-fill, 47%);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .plans .call_to_action {
+    width: 100%;
+    text-align: center;
+    font-size: $ftext;
+    font-weight: bolder;
+    //margin:  auto;
+    & span{
+      font-size: 13px;
+    }
+  }
+  .plans {
+    & .list, .dates{
+      font-size: 14px;
+    }
+  }
+}

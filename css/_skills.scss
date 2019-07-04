@@ -1,0 +1,84 @@
+.skills .card__body{
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills__item-container{
+  display: block;
+  margin:auto;
+  text-align: center;
+  width: 50%;
+  & i, ion-icon{
+    font-size: 5em;
+    width: 100%;
+    display: inline-block;
+  }
+}
+.fa-html5{
+  color: #F06539;
+}
+.fa-css3-alt{
+  color:#2965f1;
+}
+.fa-js{
+  color: #f7e018;
+}
+.fa-sass{
+  color: #cf649a;
+}
+.fa-gulp{
+  color: #cf4647;
+}
+.fa-git-alt{
+  color: #f44d27;
+}
+.fa-git{
+  font-size: 1em;
+}
+.fa-adobe{
+  color: #ff0000;
+}
+.fa-wordpress-simple{
+  color: #0085be;
+}
+.fa-python{
+  color: #3c78a9;
+}
+.fa-gitlab{
+  color: #e65328;
+}
+.fa-laravel{
+  color: #fc6754;
+}
+.fa-java{
+  color: #ce0000;
+}
+.fa-android{
+  color: #6ab344;
+}
+ion-icon{
+  color: #3880ff;
+}
+.icofont-brand-oracle{
+  color: #f80000;
+}
+.ms-Icon--OfficeLogo{
+  color: #ce2d01;
+}
+.fa-bootstrap{
+  color: #563d7c;
+}
+.icon-mssql{
+  color: #a91d22;
+}
+
+@media screen and (min-width: 768px){
+  .skills__item-container{
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .skills__item-container{
+    width: 30%;
+  }
+}

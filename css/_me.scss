@@ -1,0 +1,59 @@
+.code {
+  font-family:'Cutive Mono', 'Raleway', sans-serif;
+  font-size: 1.1em;
+}
+.me {
+  padding-top: 3em;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin: auto;
+  //height: 30vh;
+  &::before{
+    content:"";
+    background-color: rgba($ccalltext, 0.5);
+    display: block;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+  }
+}
+.me__img {
+  width: 100%;
+  display: block;
+  margin: auto;
+  //object-fit: cover;
+}
+.me__title{
+  text-align: end;
+  position: absolute;
+  top: 5em;
+  display: block;
+  width: 90%;
+  margin: auto 2% auto;
+  color: #fff;
+  font-size: $fsubtitle;
+  font-weight: lighter;
+  z-index: 80;
+   & strong {
+    background: rgba($ccontrast, 0.4);
+    border-bottom: 3px solid #fff;
+    padding: 0 .5em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .me {
+    padding-top:0;
+    margin-top: -7em;
+    //height: 50em;
+    &__title{
+      top: 8em;
+      font-size: $ftitle + 5;
+      width: 40%;
+      right: 2em;
+    }
+  }
+}
+//28,444
+//21,333

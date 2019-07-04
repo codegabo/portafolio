@@ -1,0 +1,14 @@
+.about .call_to_action--blue,
+.experience .call_to_action--blue,
+.projects .call_to_action--blue,
+.skills .call_to_action--blue,
+.awards .call_to_action--blue,
+.education .call_to_action--blue{
+  margin: 1em 2em;
+  color: $ccall;
+  border-color:$ccall;
+  &:hover{
+    background: $ccall;
+    color: #fff;
+  }
+}

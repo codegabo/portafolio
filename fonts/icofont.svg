@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+<font id="icofont" horiz-adv-x="1000" >
+<font-face font-family="IcoFont" font-weight="400" font-style="Regular" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="brand-oracle" horiz-adv-x="1000" unicode="&#xe91f;" d="M432 330h66l-35 57-64-102h-29l78 122c3 5 9 8 15 8 6 0 12-3 15-8l78-122h-29l-14 23h-67l-14 22z m303-22v106h-25v-117c0-3 1-6 4-8 2-3 5-4 9-4h113l14 23h-115z m-410 19c24 0 44 19 44 43s-20 44-44 44h-108v-129h25v106h82c11 0 20-9 20-21s-9-21-20-21h-70l74-64h36l-50 42 11 0z m-261-42c-35 0-64 29-64 64 0 36 29 65 64 65h75c36 0 65-29 65-65 0-35-29-64-65-64 0 0-75 0-75 0z m74 23c23 0 41 18 41 41 0 23-18 42-41 42l-72 0c-23 0-42-19-42-42 0-23 19-41 42-41l72 0z m470-23c-36 0-65 29-65 64 0 36 29 65 65 65h89l-15-23h-72c-23 0-42-19-42-42 0-23 19-41 42-41h89l-15-23h-76z m303 23c-19 0-35 13-40 30h105l15 23h-120c4 17 21 30 40 30h72l15 23h-89c-35 0-64-29-64-65 0-35 28-64 64-64h76l15 23h-89z" />
+</font>
+</defs>
+</svg>

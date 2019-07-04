@@ -1,0 +1,155 @@
+/* latin-ext */
+@font-face {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+   src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptrg8zYS_SKggPNwN4rWqhPAMif.woff2) format('woff2');
+   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+   src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptrg8zYS_SKggPNwN4rWqZPAA.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+   src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptrg8zYS_SKggPNwJYtWqhPAMif.woff2) format('woff2');
+   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+   src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+   font-family: 'Cutive Mono';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: local('Cutive Mono Regular'), local('CutiveMono-Regular'), url(https://fonts.gstatic.com/s/cutivemono/v7/m8JWjfRfY7WVjVi2E-K9H6RMTm663A.woff2) format('woff2');
+   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+   font-family: 'Cutive Mono';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: local('Cutive Mono Regular'), local('CutiveMono-Regular'), url(https://fonts.gstatic.com/s/cutivemono/v7/m8JWjfRfY7WVjVi2E-K9H6RCTm4.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+   font-family: 'icomoon';
+   src:  url('icomoon.eot?1hxr0y');
+   src:  url('icomoon.eot?1hxr0y#iefix') format('embedded-opentype'),
+   url('icomoon.ttf?1hxr0y') format('truetype'),
+   url('icomoon.woff?1hxr0y') format('woff'),
+   url('icomoon.svg?1hxr0y#icomoon') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+   /* use !important to prevent issues with browser extensions that change fonts */
+   font-family: 'icomoon' !important;
+   speak: none;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1;
+
+   /* Better Font Rendering =========== */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-postgresql:before {
+   content: "\e900";
+   color: #336791;
+}
+.icon-mysql:before {
+   content: "\e901";
+   color: #4479a1;
+}
+
+/*ICOMOON FONTS*/
+@font-face {
+   font-family: 'icomoon';
+   src:  url('icomoon.eot?d5eirv');
+   src:  url('icomoon.eot?d5eirv#iefix') format('embedded-opentype'),
+   url('icomoon.ttf?d5eirv') format('truetype'),
+   url('icomoon.woff?d5eirv') format('woff'),
+   url('icomoon.svg?d5eirv#icomoon') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+   /* use !important to prevent issues with browser extensions that change fonts */
+   font-family: 'icomoon' !important;
+   speak: none;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1;
+
+   /* Better Font Rendering =========== */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-go:before {
+   content: "\e901";
+   /*color: #76e1fe;*/
+   color: #00abd6;
+}
+.icon-oracle:before {
+   content: "\e903";
+   color: #f80000;
+}
+.icon-php:before {
+   content: "\e902";
+   color: #777bb4;
+}
+.icon-postgresql:before {
+   content: "\e900";
+   color: #336791;
+}
+.icon-mysql:before {
+   content: "\e904";
+   color: #4479a1;
+}

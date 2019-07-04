@@ -1,0 +1,17 @@
+//.education span{
+//  color: $ccontrast;
+//  display: block;
+//  font-size: $ftext;
+//  margin: 0;
+//}
+.diplomados {
+  & .card__body{
+    display: inline-block;
+    //flex-wrap: wrap;
+    &--diplomados h4{
+      //width: 50%;
+      font-weight: lighter;
+      color: $cdark;
+    }
+  }
+}

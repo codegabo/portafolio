@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?d5eirv');
+  src:  url('fonts/icomoon.eot?d5eirv#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?d5eirv') format('truetype'),
+    url('fonts/icomoon.woff?d5eirv') format('woff'),
+    url('fonts/icomoon.svg?d5eirv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-go:before {
+  content: "\e901";
+  color: #76e1fe;
+}
+.icon-oracle:before {
+  content: "\e903";
+  color: #f80000;
+}
+.icon-php:before {
+  content: "\e902";
+  color: #777bb4;
+}
+.icon-postgresql:before {
+  content: "\e900";
+  color: #336791;
+}
+.icon-mysql:before {
+  content: "\e904";
+  color: #4479a1;
+}
