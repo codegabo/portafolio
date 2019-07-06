@@ -77,7 +77,6 @@
 .call_to_action{
   color:$ccall;
   margin: .5em auto;
-  //font-weight: bold;
   font-size: 1.2em;
   text-align: center;
   //background: $ccall;
@@ -155,7 +154,7 @@
     width: 85%;
     font-weight: 500;
     display: flex;
-    margin:.6em auto 1.5em;
+    margin:.6em auto;
     font-size: .7em;
     border:1px solid $ccall;
     padding: .9em .4em .9em .4em;
@@ -196,7 +195,7 @@
     margin-top: 0;
   }
   ::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
   }
 
   /* Track */
@@ -206,12 +205,12 @@
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: lightgray;
+    background:lightgray;
   }
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgba(lightgray, .5);
+    background:gray;
   }
 }
 
